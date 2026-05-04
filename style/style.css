@@ -1,0 +1,544 @@
+.scroll {
+    color: #fff;
+    margin-top: 100px;
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(0, 100%, 50%, 0.8);
+
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8);
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+@media (min-width:320px) {
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+        background-color: black;
+    }
+
+    .h1-frist {
+        font-size:40px;
+        background-color: aqua;
+
+    }
+
+    .butn1 {
+        position: relative;
+        height: 60px;
+        width: 220px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(187, 255, 0) !important;
+    }
+
+    .butn1:hover {
+        background-color: aliceblue;
+        border: none;
+        transition: .3s;
+
+    }
+
+    .main-img {
+        background-image: url(../image/pexels-ivan-samkov-4240587.jpg);
+        height: 80vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .c-round {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+        left: 47%;
+        margin-top: 30px;
+        border: 35px solid rgb(187, 255, 0);
+        opacity: .5;
+    }
+
+    .for-div {
+        width: 100%;
+        font-size: 100px;
+    }
+
+    .c-round1 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(187, 255, 0);
+        left: 47%;
+        margin-top: 30px;
+        border: 35px solid rgb(255, 255, 255);
+        opacity: .5;
+    }
+
+    .six-img {
+        height: 350px;
+    }
+
+    .white-c {
+        height: 180px;
+        width: 180px;
+        background-color: white;
+        margin-top: -180px;
+        margin-right: 100px;
+        z-index: 1;
+    }
+
+    .form-ab {
+        height: 400px;  
+    }
+
+    .butn4 {
+        height: 40px;
+        width: 160px;
+        border-radius: 10px;
+        font-size: 14px;
+        background-color: rgb(187, 255, 0);
+    }
+
+    .butn4:hover {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        transition: .3s;
+    }
+
+    .sev-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .white-seven {
+        height: 150px;
+        width: 150px;
+        background-color: rgb(187, 255, 0);
+        border: 10px solid rgb(0, 0, 0);
+        padding-top: 100px;
+    }
+
+    .eig-head {
+        font-size: 40px;
+    }
+
+}
+
+/* 2222222222222222222222222222222222222222222 */
+
+@media (min-width:1024px) {
+
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .h1-frist {
+        font-size: 70px ;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .hove {
+        color: rgb(255, 255, 255);
+    }
+
+    .hove:hover {
+        color: rgb(187, 255, 0);
+        transition: .3s;
+    }
+
+    .butn1 {
+        position: relative;
+        height: 60px;
+        width: 220px;
+        font-size: 20px;
+        background-color: rgb(187, 255, 0) !important;
+    }
+
+    .butn1:hover {
+        background-color: aliceblue;
+        border: none;
+        transition: .3s;
+
+    }
+
+    .main-img {
+        background-image: url(../image/pexels-ivan-samkov-4240587.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .c-round {
+        height: 220px;
+        width: 220px;
+        background-color: rgb(0, 0, 0);
+        left: 77% !important;
+        margin-top: 30px;
+        border: 40px solid rgb(187, 255, 0);
+        opacity: .5;
+    }
+
+    .icon3 {
+        height: 120px;
+        width: 120px;
+        background-color: rgb(187, 255, 0);
+        margin-left: 22px;
+    }
+
+    .butn2 {
+        height: 80px;
+        width: 320px;
+        border-radius: 10px;
+        font-size: 35px;
+        color: rgb(187, 255, 0);
+    }
+
+    .butn2:hover {
+        background-color: rgb(117, 117, 117);
+        border: none;
+        transition: .3s;
+    }
+
+    .headF {
+        color: rgb(187, 255, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .butn3 {
+        height: 80px;
+        width: 320px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(187, 255, 0);
+    }
+
+    .butn3:hover {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        transition: .3s;
+    }
+
+    .c-round1 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(187, 255, 0);
+        left: 50% !important;
+        margin-top: 30px;
+        border: 65px solid rgb(255, 255, 255);
+        opacity: .5;
+    }
+
+    .six-img {
+        height: 800px !important;
+    }
+
+    .white-c {
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        margin-top: -250px;
+        margin-right: 100px;
+        z-index: 1;
+    }
+
+    .butn4 {
+        height: 80px;
+        width: 320px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(187, 255, 0);
+    }
+
+    .butn4:hover {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        transition: .3s;
+    }
+
+    .form-ab {
+        margin-top: -300px;
+        padding: 10px 40px;
+    }
+
+    .white-cb {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(187, 255, 0);
+        margin-top: 200px;
+        margin-right: 50px;
+        float: right;
+        border: 35px solid rgb(255, 255, 255);
+
+    }
+
+    .white-seven {
+        height: 150px;
+        width: 150px;
+        background-color: rgb(187, 255, 0);
+        border: 10px solid rgb(0, 0, 0);
+        padding-top: 100px;
+    }
+
+    .sev-img {
+        height: 600px !important;
+        width: 600px !important;
+    }
+
+    .sev-div {
+        font-size: 30px;
+    }
+
+    .scr-img {
+        background-image: url(../image/pexels-fauxels-3183197.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .bi:hover {
+        color: rgb(187, 255, 0);
+    }
+}
+
+.for-div {
+    font-size: 70px;
+    font-family: 'Kalam', cursive;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* 33333333333333333333333333333333333 */
+
+
+@media (min-width:1440px) {
+
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .h1-frist {
+        font-size:90px;
+        background-color: aqua;
+    }
+
+    .hove {
+        color: rgb(255, 255, 255);
+    }
+
+    .hove:hover {
+        color: rgb(187, 255, 0);
+        transition: .3s;
+    }
+
+    .butn1 {
+        position: relative;
+        height: 60px;
+        width: 220px;
+        font-size: 20px;
+        background-color: rgb(187, 255, 0) !important;
+    }
+
+    .butn1:hover {
+        background-color: aliceblue;
+        border: none;
+        transition: .3s;
+
+    }
+
+    .main-img {
+        background-image: url(../image/pexels-ivan-samkov-4240587.jpg);
+        height: 100vh !important;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .c-round {
+        height: 220px;
+        width: 220px;
+        background-color: rgb(0, 0, 0);
+        left: 77% !important;
+        margin-top: 30px;
+        border: 40px solid rgb(187, 255, 0);
+        opacity: .5;
+    }
+
+    .icon3 {
+        height: 120px;
+        width: 120px;
+        background-color: rgb(187, 255, 0);
+        margin-left: 22px;
+    }
+
+    .butn2 {
+        height: 80px;
+        width: 320px;
+        border-radius: 10px;
+        font-size: 35px;
+        color: rgb(187, 255, 0);
+    }
+
+    .butn2:hover {
+        background-color: rgb(117, 117, 117);
+        border: none;
+        transition: .3s;
+    }
+
+    .headF {
+        color: rgb(187, 255, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .butn3 {
+        height: 80px;
+        width: 320px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(187, 255, 0);
+    }
+
+    .butn3:hover {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        transition: .3s;
+    }
+
+    .c-round1 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(187, 255, 0);
+        left: 50% !important;
+        margin-top: 30px;
+        border: 65px solid rgb(255, 255, 255);
+        opacity: .5;
+    }
+
+    .six-img {
+        height: 800px !important;
+    }
+
+    .white-c {
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        margin-top: -250px;
+        margin-right: 100px;
+        z-index: 1;
+    }
+
+    .butn4 {
+        height: 80px;
+        width: 320px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(187, 255, 0);
+    }
+
+    .butn4:hover {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        transition: .3s;
+    }
+
+    .form-ab {
+        margin-top: -300px;
+        padding: 10px 40px;
+    }
+
+    .white-cb {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(187, 255, 0);
+        margin-top: 200px;
+        margin-right: 50px;
+        float: right;
+        border: 35px solid rgb(255, 255, 255);
+
+    }
+
+    .white-seven {
+        height: 150px;
+        width: 150px;
+        background-color: rgb(187, 255, 0);
+        border: 10px solid rgb(0, 0, 0);
+        padding-top: 100px;
+    }
+
+    .sev-img {
+        height: 600px !important;
+        width: 600px !important;
+    }
+
+    .sev-div {
+        font-size: 30px;
+    }
+
+    .scr-img {
+        background-image: url(../image/pexels-fauxels-3183197.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .bi:hover {
+        color: rgb(187, 255, 0);
+    }
+}
+
+.for-div {
+    font-size: 70px;
+    font-family: 'Kalam', cursive;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+
+/* @media (min-width: 920px){
+
+    .h1-frist{
+        font-size: 90px !important;
+    }
+} */
